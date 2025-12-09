@@ -12,8 +12,14 @@ Sua marca é sinônimo de **flexibilidade, versatilidade e resiliência**. Busca
 - A flexibilidade e a resiliência são características importantes da sua empresa
 
 ### Termos Positivos
+- Resiliência
+- Flexibilidade
+- Versatilidade
 
 ### Termos Negativos
+- Inconsistência
+- Desconfiança
+- Imprevisibilidade
 
 ### Exemplos
 
@@ -76,8 +82,14 @@ Sua marca é sinônimo de **planejamento, precisão e eficiência**. Busca criar
 - A precisão e a qualidade são pilares fundamentais da sua empresa?
 
 ### Termos Positivos
+- Planejamento
+- Precisão
+- Metodologia
 
 ### Termos Negativos
+- Lentidão
+- Obsolecência
+- Preciosismo
 
 ### Exemplos
 
@@ -216,7 +228,7 @@ Sua marca é sinônimo de **inovação, visão e criatividade**. Busca inspirar 
 
 ### Termos Negativos
 - Loucura
-- Caro
+- Dispendioso
 - Complicado
 
 ### Exemplos
@@ -720,4 +732,3 @@ Soluções práticas, claras e acessíveis para a vida cotidiana.
 **Arquétipo secundário**: Criador
 
 ---
-
