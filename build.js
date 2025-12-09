@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const sourceDir = 'c:\\MAMP\\htdocs\\arquetipos';
+const sourceDir = __dirname;
 const publicDir = path.join(sourceDir, 'public');
 const assetsDir = path.join(sourceDir, 'assets');
 const markdownFile = path.join(sourceDir, 'arquetipos_descricoes.md');
@@ -154,7 +154,7 @@ archetypes.forEach(arch => {
     arch.examples.forEach(ex => {
         examplesHtml += `
         <div class="col-md-6 p-4">
-            <img src="${ex.image}" class="img-fluid mb-2" style="max-height: 60px; width: auto;">
+            <img src="${ex.image}" class="img-fluid mb-2" style="max-height: 60px; width: auto;" referrerpolicy="no-referrer">
             <p class="mt-2">${ex.text}</p>
         </div>`;
     });
@@ -197,7 +197,7 @@ for (const [category, items] of Object.entries(categories)) {
         guiaGridHtml += `
         <div class="col-md-6 col-lg-4 project-sidebar-card mb-4">
             <a href="${link}">
-                <img class="img-fluid rounded-4 image scale-on-hover" src="${img}" alt="${item}">
+                <img class="img-fluid rounded-4 image scale-on-hover" src="${img}" alt="${item}" referrerpolicy="no-referrer">
             </a>
             <h4 class="mt-2 text-center">${item}</h4>
         </div>`;

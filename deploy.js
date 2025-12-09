@@ -2,9 +2,9 @@ const fs = require('fs');
 const path = require('path');
 const { execSync } = require('child_process');
 
-const sourceDir = 'c:\\MAMP\\htdocs\\arquetipos';
+const sourceDir = __dirname;
 const publicDir = path.join(sourceDir, 'public');
-const deployDir = 'C:\\MAMP\\htdocs\\archetypes';
+const deployDir = 'C:\\MAMP\\htdocs\\arquetipos';
 
 // Ensure deploy directory exists
 if (!fs.existsSync(deployDir)) {
@@ -13,8 +13,8 @@ if (!fs.existsSync(deployDir)) {
 
 console.log(`Deploying from ${publicDir} to ${deployDir}...`);
 
-// Use robocopy for Windows or cp for others. Since user is on Windows (MAMP), let's try a node-based recursive copy to be safe and cross-platform-ish, or just use fs.cpSync which is available in newer Node versions.
 try {
+    // Copy all files and folders from publicDir to deployDir
     fs.cpSync(publicDir, deployDir, { recursive: true, force: true });
     console.log('Deploy successful!');
 } catch (err) {
